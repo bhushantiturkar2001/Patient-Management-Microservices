@@ -1,0 +1,37 @@
+# ---- STS / Eclipse specific ----
+.metadata/
+.settings/
+.classpath
+.project
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+*.iws
+
+# ---- Maven build ----
+target/
+dependency-reduced-pom.xml
+
+# ---- Logs & Temp ----
+*.log
+logs/
+tmp/
+*.swp
+*.swo
+
+# ---- OS generated files ----
+.DS_Store
+Thumbs.db
+
+# ---- Spring Boot generated ----
+bin/
+
+# ---- Spring Boot configs ----
+application.properties
+
+# ======================
+# Extra STS/git files
+# ======================
+patient-service/.gitattributes
+patient-service/.gitignore
